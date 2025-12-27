@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(245, 245, 245);
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button a {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ProseMirror {
+  outline: none;
+  font-size: 18px;
+}
+
+.editor__frame {
+  padding: 5px 14px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+}
+
+.editor__frame .ProseMirror {
+  min-height: 300px;
+}
+
+.MuiButtonBase-root {
+  outline: none !important;
+}
+
+.MuiMenu-list {
+  min-width: 200px;
+}
+
+.MuiBox-root:last-child {
+  margin-bottom: 0 !important;
+}
+
+.MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:not(:last-of-type) {
+  border: none;
+}
+
+.MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  border: none;
+}
+
+.MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  margin-left: 0 !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .ProseMirror {
+    font-size: 16px;
+  }
+
+  .editor__frame .ProseMirror {
+    min-height: 200px;
+  }
+}

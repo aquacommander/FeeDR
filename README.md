@@ -29,8 +29,6 @@ A responsive and accessible full stack blog web app.
 - React Router
 - React Hook Form
 
-## Live
 
-> Client: https://feedr-three.vercel.app
 
-> Server: https://github.com/VadimNeVlad/feedr-server
+

@@ -30,5 +30,3 @@ A responsive and accessible full stack blog web app.
 - React Hook Form
 
 
-
-
